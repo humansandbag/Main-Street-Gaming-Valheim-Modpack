@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.0.3",
+    "version_number": "1.0.4",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -86,7 +86,6 @@
         "neurodr0me-RRRNpcs-0.2.4",
         "neurodr0me-RRRMonsters-2.2.1",
         "ASharpPen-Custom_Raids-1.6.3",
-        "MonsternomiconREUP-Monsternomicon-1.0.6",
-        "Ratzu-ReviveAllies-0.1.1"        
+        "MonsternomiconREUP-Monsternomicon-1.0.6"
     ]
 }
