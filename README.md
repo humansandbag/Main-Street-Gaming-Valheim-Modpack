@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.0.5
+- Added mod MaxAxe
+- General dependency updates
+- Enabled Special effects for bosses
+- Enabled creature level changes for bosses up to 3 stars.
+
 ### v1.0.4
 - Removed ReviveAllies mod due to incompatability with ValheimRAFTWithAssets
 
