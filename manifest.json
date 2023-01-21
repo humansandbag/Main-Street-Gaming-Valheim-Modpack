@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.0.5",
+    "version_number": "1.0.6",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -15,7 +15,7 @@
         "Smoothbrain-TargetPortal-1.1.6",
         "OdinPlus-OdinHorse-1.1.0",
         "OdinPlus-OdinsUndercroft-1.1.11",
-        "OhhLoz-HoneyPlus-4.0.1",
+        "OhhLoz-HoneyPlus-5.1.1",
         "makail-ItemDrawers-0.5.0",
         "Mokutan-MassFarming-1.5.0",
         "OdinPlus-TeleportEverything-2.1.0",
@@ -52,11 +52,9 @@
         "MSchmoecker-HammerTime-0.3.3",
         "MrSerji-Construction-0.2.5",
         "Fantu-Sages_Vault-1.1.4",
-        "eideehi-Automatics-1.4.0",
         "Smoothbrain-StaminaRegenerationFromFood-1.5.3",
         "cjayride-CraftingFilter-0.6.1",
-        "hbocao-EnhancedPotions-0.3.18",
-        "Azumatt-SleepingBag-1.0.3",
+        "hbocao-EnhancedPotions-0.3.21",
         "RockerKitten-BoneAppetit-3.2.0",
         "Frenvius-Valharvest-3.0.2",
         "aedenthorn_mods-InstantMonsterLootDrop-0.5.0",
@@ -85,8 +83,9 @@
         "ASharpPen-Drop_That-2.3.5",
         "neurodr0me-RRRNpcs-0.2.4",
         "neurodr0me-RRRMonsters-2.2.1",
-        "ASharpPen-Custom_Raids-1.6.3",
+        "ASharpPen-Custom_Raids-1.7.0",
         "MonsternomiconREUP-Monsternomicon-1.0.6",
-        "Neobotics-MaxAxe-0.2.5"        
+        "Neobotics-MaxAxe-0.2.5",
+        "Marlthon-SeaAnimals-0.1.4"               
     ]
 }

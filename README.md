@@ -3,6 +3,13 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.0.6
+- General dependency updates
+- Removed Automatics mod as it was glitching and clearing map markers
+- Changed creature loot drops from CalculateChance to Linear based on creatures level
+- Added SeaAnimals by Marlthon
+- Removed Sleeping Bag mod due to texture glitches
+
 ### v1.0.5
 - Added mod MaxAxe
 - General dependency updates
