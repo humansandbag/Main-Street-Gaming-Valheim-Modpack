@@ -3,6 +3,14 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.0.7
+- Added jtv biomes by thedefside
+- Added UseEquipmentInWater by LVH-IT
+- Added Compress by ComfyMods
+- Added Expand_World by JereKuusela
+- Added new biomes to the world gen
+- Changed faceoffset for kailen37_FPV_Fixed from 0.071 to 0.1 to prevent helmets from clipping into the view
+
 ### v1.0.6
 - General dependency updates
 - Removed Automatics mod as it was glitching and clearing map markers
