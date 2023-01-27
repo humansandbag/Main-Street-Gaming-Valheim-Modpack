@@ -3,6 +3,19 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.0.8
+- Set chance for Mending affix bosses to spawn (percentage) to 0%.
+- Set RepairStation to repair all items in a loop until all are repaired
+- Enabled monster vegetable drops in Valharvest
+- Disable monster leaf drops in the MrSerji Construction mod
+- Set creatures in dungeons and camps to respawn after 150 minutes
+- Removed SimpleRecycling Fixed By remmiz due to UI glitch that was causing wrong items to be recycled
+- Added OdinsInventoryDiscard by OdinPlus
+- Removed the Trash hotkey from the Trash Items mod
+- General dependency updates
+- Removed Valheim_Diving_Mod by Easy_Develope in preparation for a new diving mod
+- Removed Valheim_Easy_Translate by Easy_Develope
+
 ### v1.0.7
 - Added jtv biomes by thedefside
 - Added UseEquipmentInWater by LVH-IT
