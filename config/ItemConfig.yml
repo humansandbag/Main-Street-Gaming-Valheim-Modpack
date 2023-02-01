@@ -2,9 +2,9 @@
 # Do not forget to turn the YAML file on in the settings.
 
 # Predefined groups:
-# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, stackable.
+# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
 # pants, chest, helmet, cape, armor.
-# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, arrows, weapon.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
 # round shield, tower shield, shield.
 # special (fishing rod and megingjord), tool, equipment.
 
@@ -27,7 +27,7 @@
 
 # Examples:
 groups:
-  Huge Wood Stacks:
+  Huge Wood Gain:
     - Wood
     - Fine Wood
     - Core Wood
@@ -60,6 +60,7 @@ food:
 ooze:
   pickup: no
   
-# This will make metal float in water.
+# This will make metal float in water and teleportable.
 metal:
   floating: yes
+  teleportable: yes

@@ -3,6 +3,15 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.0.9
+- Added Better Diving by Main Street Gaming
+- Spinning wheel was taking too long to process linen. Set it to 30 (default).
+- Windmill was taking too long to process barley. Set it to 10 (default).
+- Enabled FreePlacementRotation in ValheimPlus
+- Disabled Fuling Dwarf Lox Rider, Fuling ships, and Draugr ships in MonsterLabZ due to incompatability with RAFT mod
+- Set Fuling Dwarf enemy types in MonsterLabZ to drop BlackMetalOre and goblinTrophies
+- Decreased the autoRange for Kilns, Furnaces, and Smelters by half in Valheim_Plus
+
 ### v1.0.8
 - Set chance for Mending affix bosses to spawn (percentage) to 0%.
 - Set RepairStation to repair all items in a loop until all are repaired

@@ -152,7 +152,7 @@ Strong Enemies:
 #   - Day
 #   - Night
 # Additionally there is a special condition named 'Override', which has the highest priority. That condition will be applied unconditionally and can be used to overwrite any conditionally applied values by another group.
-# Attributes defined without condition are evaluted last.
+# Attributes defined without condition are evaluated last.
 #
 # These conditions can also be nested. As an example, given a group Easier Meadows At Day which includes Greylings:
 
@@ -267,7 +267,7 @@ Greyling:
 # If you would leave out the 1: default, the configuration for world level 0 would be active for all world levels equal or greater than 0.
 #
 # The attributes 'damage' and 'damage taken' can be configured by weapon and attack type. When multiple types (e.g. Bows and Fire on a fire arrow) match, their values are multiplied together. 
-# Valid damage types are: All, Fire, Frost, Poison, Lightning, Spirit, Elemental, Blunt, Slash, Pierce, Chop, Physical, Knives, Bows, Swords, Spears, Pickaxes, Axes, Clubs, Polearms, Weapons, Unarmed
+# Valid damage types are: All, Fire, Frost, Poison, Lightning, Spirit, Elemental, Blunt, Slash, Pierce, Chop, Physical, Knives, Bows, Crossbows, ElementalMagic, BloodMagic, Swords, Spears, Pickaxes, Axes, Clubs, Polearms, Weapons, Unarmed
 #
 # The attributes 'effect' and 'effect power' can be configured individually per effect:
 # - Aggressive
