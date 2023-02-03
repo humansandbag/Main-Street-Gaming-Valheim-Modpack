@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.0
+- Added WishboneSlot by nearbear
+- Downgraded CreatureLevelAndLootControl to 4.5.2 due to incompatability with Valheim Plus
+- General dependency updates
+
 ### v1.0.9
 - Added Better Diving by Main Street Gaming
 - Spinning wheel was taking too long to process linen. Set it to 30 (default).
