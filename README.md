@@ -3,6 +3,15 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.2
+- Turned off Map Details in OdinPlus due to performance impact
+- Fixed parsing issue in spawn_that.world_spawners.Monsternomicon_Mistlands.cfg
+- Removed unused mods due to RAM pressure: AutoFeed, Stone_Portal, OdinsUndercroft, CraftingFilter, and Bone_Arrows_JVL
+- Enabled taming for the PolarLox and PolarLoxSmall
+- Set OdinsQOL Craft from chest radius to 20
+- Disabled Gizmo prefab due to performance impact
+- General dependency updates
+
 ### v1.1.1
 - Removed Valheim Plus
 - Added OdinsQOL as a replacement for ValheimPlus
