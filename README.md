@@ -3,6 +3,26 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.1
+- Removed Valheim Plus
+- Added OdinsQOL as a replacement for ValheimPlus
+- Added ServerSideMap as a replacement for ValheimPlus
+- Added CustomMapDiscovery by reckon as a replacement for ValheimPlus
+- Added Where_You_At by Azumatt by reckon as a replacement for ValheimPlus
+- Added AutomaticFuel by TastyChickenLeg as a replacement for ValheimPlus
+- Removed OdinsInventoryDiscard by OdinPlus
+- Disabled spawn of RRRM_DarkSpiderMother, RRRM_DarkSpiderPoison, and RRRN_SvartalfrAll due to framerate issues in Mistlands
+- Disabled one of the spawns for RRRM_DarkSpider due to framerate issues in Mistlands
+- Set MaxSpawned for RRRM_DarkSpider to 1 (2 by default)
+- Disabled daytime RRRM_DarkMoth spawner due to framerate issues in Mistlands
+- Disabled DarkSpiderRaid and SpiderHatchery raids due to framerate issues in Mistlands
+- Set RRRM_DarkBat to only spawn at night due to framerate issues in Mistlands
+- Added ConfigWatcher by Smoothbrain
+- Added ImFRIENDLY_DAMMIT by Azumatt
+- Added FastLink by Azumatt
+- Removed ValheimAntiCheat
+- Added Gizmo by ComfyMods
+
 ### v1.1.0
 - Added WishboneSlot by nearbear
 - Downgraded CreatureLevelAndLootControl to 4.5.2 due to incompatability with Valheim Plus
