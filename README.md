@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.3
+- Disabled PreventPlantTooClose in OdinsQOL due to Jotun Puffs and Magecaps bug that prevents planting
+- Disabled bow zoom in BetterArchery
+- Changed keybinding for armor set power to J, K, and L
+- General dependency updates
+
 ### v1.1.2
 - Turned off Map Details in OdinPlus due to performance impact
 - Fixed parsing issue in spawn_that.world_spawners.Monsternomicon_Mistlands.cfg
