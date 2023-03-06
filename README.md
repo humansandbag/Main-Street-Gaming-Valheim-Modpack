@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.4
+- Replaced AutomaticFuel by TastyChickenLeg (Deprecated) with AutomaticFuel by TastyChickenLegs
+- Updated BetterDiving to the latest version which includes the new fast swimming feature
+- General dependency updates
+
 ### v1.1.3
 - Disabled PreventPlantTooClose in OdinsQOL due to Jotun Puffs and Magecaps bug that prevents planting
 - Disabled bow zoom in BetterArchery
