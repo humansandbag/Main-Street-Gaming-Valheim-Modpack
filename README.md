@@ -3,6 +3,20 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.5
+- Removed OdinsQOL (deprecated)
+- Added AzuAutoStore as a replacement for OdinsQOL (deprecated)
+- Added AzuMiscPatches as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AzuContainerSizes as a replacement for OdinsQOL (deprecated)
+- Added CraftFromContainers as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AzuHoverStats as a replacement for OdinsQOL (deprecated)
+- Added OdinPlus-OdinsInventoryDiscard as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AzuSigns as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AzuWorkbenchTweaks as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AllTheBases as a replacement for OdinsQOL (deprecated)
+- Added Azumatt-AzuAreaRepair as a replacement for OdinsQOL (deprecated)
+- General dependency updates
+
 ### v1.1.4
 - Replaced AutomaticFuel by TastyChickenLeg (Deprecated) with AutomaticFuel by TastyChickenLegs
 - Updated BetterDiving to the latest version which includes the new fast swimming feature
