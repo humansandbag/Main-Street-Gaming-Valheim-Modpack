@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.1.5",
+    "version_number": "1.1.6",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -22,7 +22,6 @@
         "LVH-IT-UseEquipmentInWater-0.2.3",
         "thedefside-jtv_biomes-0.0.2",
         "Marlthon-SeaAnimals-0.1.5",
-        "Neobotics-MaxAxe-0.3.4",
         "ASharpPen-Custom_Raids-1.7.3",
         "ASharpPen-Drop_That-2.3.5",
         "MonsternomiconREUP-Monsternomicon-1.0.6",
@@ -69,7 +68,7 @@
         "OdinPlus-TeleportEverything-2.3.1",
         "makail-ItemDrawers-0.5.1",
         "RandyKnapp-ExtendedItemDataFramework-1.0.11",
-        "denikson-BepInExPack_Valheim-5.4.2101",
+        "denikson-BepInExPack_Valheim-5.4.2102",
         "Frenvius-Valharvest-3.0.2",
         "hbocao-EnhancedPotions-0.3.22",
         "OdinPlus-OdinShip-0.2.6",
@@ -86,8 +85,8 @@
         "OhhLoz-HoneyPlus-5.2.0",
         "OdinPlus-OdinHorse-1.1.5",
         "Smoothbrain-TargetPortal-1.1.6",
-        "Smoothbrain-ServerCharacters-1.4.0",
-        "RandyKnapp-EpicLoot-0.9.9",
+        "Smoothbrain-ServerCharacters-1.4.2",
+        "RandyKnapp-EpicLoot-0.9.10",
         "OdinPlus-OdinsSteelworks-0.1.12",
         "ValheimModding-Jotunn-2.11.2",
         "Huntardys-EpicValheimsAdditions-1.9.4",
@@ -100,6 +99,6 @@
         "Azumatt-AzuSigns-1.0.3",
         "Azumatt-AllTheBases-1.0.5",
         "Azumatt-AzuWorkbenchTweaks-1.0.1",
-        "Azumatt-AzuAreaRepair-1.0.1"          
+        "Azumatt-AzuAreaRepair-1.0.1"
     ]
 }

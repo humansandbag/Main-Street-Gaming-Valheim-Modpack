@@ -3,6 +3,10 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.6
+- Removed MaxAxe due to server issues
+- General dependency updates
+
 ### v1.1.5
 - Removed OdinsQOL (deprecated)
 - Added AzuAutoStore as a replacement for OdinsQOL (deprecated)
