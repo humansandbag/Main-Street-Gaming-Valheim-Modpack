@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.7
+- Removed OdinHorse by OdinPlus to reduce RAM pressure since nobody uses the horses
+- Added ArmorModifier by MainStreetGaming to add the armor buffs we used to have
+- General dependency updates
+
 ### v1.1.6
 - Removed MaxAxe due to server issues
 - General dependency updates

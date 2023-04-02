@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.1.6",
+    "version_number": "1.1.7",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -60,7 +60,7 @@
         "Easy_Develope-Pageable_Build_Hud-1.0.2",
         "WithinReason-MultiCraft-1.1.1",
         "Nextek-SpeedyPaths-1.0.7",
-        "Digitalroot-Digitalroots_Slope_Combat_Assistance-2.0.7",
+        "Digitalroot-Digitalroots_Slope_Combat_Assistance-2.0.9",
         "Amar1729-BetterLadders-0.2.0",
         "Goldenrevolver-Instantly_Destroy_Boats_And_Carts-1.0.3",
         "Menthus-Better_Trader-2.0.4",
@@ -83,7 +83,6 @@
         "Smoothbrain-Network-1.0.1",
         "Mokutan-MassFarming-1.5.0",
         "OhhLoz-HoneyPlus-5.2.0",
-        "OdinPlus-OdinHorse-1.1.5",
         "Smoothbrain-TargetPortal-1.1.6",
         "Smoothbrain-ServerCharacters-1.4.2",
         "RandyKnapp-EpicLoot-0.9.10",
@@ -99,6 +98,7 @@
         "Azumatt-AzuSigns-1.0.3",
         "Azumatt-AllTheBases-1.0.5",
         "Azumatt-AzuWorkbenchTweaks-1.0.1",
-        "Azumatt-AzuAreaRepair-1.0.1"
+        "Azumatt-AzuAreaRepair-1.0.1",
+        "MainStreetGaming-ArmorModifier-1.0.0"
     ]
 }
