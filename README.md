@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.1.9
+- Removed EmoteWheel by virtuaCode as no players were using it
+- Removed EquipWheel by virtuaCode as no players were using it
+- Set the armor set ability 1 keybind in EpicLoot to G
+- General dependency updates
+
 ### v1.1.8
 - Replaced JotunnBackpacks (deprecated) with AdventureBackpacks by Vapok
 - Removed ExtendedItemDataFramework by RandyKnapp (Deprecated)
