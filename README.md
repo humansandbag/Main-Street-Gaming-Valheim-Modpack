@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.0
+- Added GooderAutoShield By Main Street Gaming
+- Buffed helmets by 100%
+- General dependency updates
+
 ### v1.1.9
 - Removed EmoteWheel by virtuaCode as no players were using it
 - Removed EquipWheel by virtuaCode as no players were using it

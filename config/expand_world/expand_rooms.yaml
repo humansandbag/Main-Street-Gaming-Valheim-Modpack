@@ -1,0 +1,2437 @@
+- name: gobvill_guardtower
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 7,7,8
+  connections: []
+- name: gobvill_barley
+  theme: GoblinCamp
+  size: 10,7,8
+  connections: []
+- name: gobvill_woodwall2
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 10,2,8
+  connections: []
+- name: gobvill_crafting
+  theme: GoblinCamp
+  size: 5,5,8
+  connections: []
+- name: gobvill_guardplatform
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 5,8,8
+  connections: []
+- name: gobvill_bonfire
+  theme: GoblinCamp
+  size: 8,8,8
+  connections: []
+- name: gobvill_stakes
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 10,3,8
+  connections: []
+- name: gobvill_campfire
+  theme: GoblinCamp
+  size: 6,6,8
+  connections: []
+- name: gobvill_refusepit
+  theme: GoblinCamp
+  weight: 0.5
+  size: 5,4,8
+  connections: []
+- name: gobvill_tent1
+  theme: GoblinCamp
+  faceCenter: true
+  size: 12,12,8
+  connections: []
+- name: gobvill_tent02
+  theme: GoblinCamp
+  faceCenter: true
+  size: 12,12,8
+  connections: []
+- name: gobvill_platform
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 6,9,8
+  connections: []
+- name: gobvill_flax
+  theme: GoblinCamp
+  size: 10,7,8
+  connections: []
+- name: gobvill_hut02
+  theme: GoblinCamp
+  faceCenter: true
+  size: 10,12,8
+  connections: []
+- name: gobvill_woodwall
+  theme: GoblinCamp
+  faceCenter: true
+  perimeter: true
+  size: 10,2,8
+  connections: []
+- name: gobvill_hut1
+  theme: GoblinCamp
+  faceCenter: true
+  size: 8,10,8
+  connections: []
+- name: gobvill_hut03
+  theme: GoblinCamp
+  faceCenter: true
+  size: 10,16,8
+  connections: []
+- name: sunkencrypt_new_Start1
+  theme: SunkenCrypt
+  entrance: true
+  size: 8,14,10
+  connections:
+  - position: 4,-1,-2.5
+    door: false
+  - position: -4,-1,-2.5
+    door: false
+  - position: 0,-7,-2.5
+    door: false
+  - position: 0,5,-0.5
+    entrance: true
+- name: sunkencrypt_new_Corridor1
+  theme: SunkenCrypt
+  weight: 5
+  size: 12,10,10
+  connections:
+  - position: 6,0,-2.5
+    door: false
+  - position: -6,0,-2.5
+    door: false
+- name: sunkencrypt_new_Corridor2
+  theme: SunkenCrypt
+  weight: 0.5
+  size: 12,8,10
+  connections:
+  - position: 6,0,-2.5
+    door: false
+  - position: -6,0,-2.5
+    door: false
+- name: sunkencrypt_new_Corridor3
+  theme: SunkenCrypt
+  weight: 0.5
+  size: 12,8,10
+  connections:
+  - position: 6,0,-1.5
+    door: false
+  - position: -6,0,-3
+    type: water
+    door: false
+- name: sunkencrypt_new_Corridor4
+  theme: SunkenCrypt
+  size: 12,8,10
+  connections:
+  - position: 6,0,-2.5
+    door: false
+  - position: -6,0,-2.5
+    door: false
+  - position: 0,4,-2.5
+    door: false
+- name: sunkencrypt_new_Corridor5
+  theme: SunkenCrypt
+  size: 12,8,10
+  connections:
+  - position: 6,0,-2.5
+    door: false
+  - position: -6,0,-2.5
+    door: false
+  - position: 0,4,-2.5
+    door: false
+  - position: 0,-4,-2.5
+    door: false
+- name: sunkencrypt_new_Stair1
+  theme: SunkenCrypt
+  weight: 2
+  size: 16,8,16
+  connections:
+  - position: 7.75,0,-2.5
+    door: false
+  - position: -8,0,-6
+    door: false
+- name: sunkencrypt_new_Endcap1
+  theme: SunkenCrypt
+  endCap: true
+  weight: 0.5
+  size: 4,4,10
+  connections:
+  - position: 2,0,-2.5
+    door: false
+- name: sunkencrypt_new_Endcap2
+  theme: SunkenCrypt
+  endCap: true
+  weight: 0.5
+  size: 4,4,10
+  connections:
+  - position: 2,0,-2.5
+    door: false
+- name: sunkencrypt_new_Endcap3
+  theme: SunkenCrypt
+  endCap: true
+  weight: 0.5
+  size: 0,4,10
+  connections:
+  - position: 0,0,-2.5
+    door: false
+- name: sunkencrypt_new_EndcapWater1
+  theme: SunkenCrypt
+  endCap: true
+  weight: 0.5
+  size: 0,4,10
+  connections:
+  - position: 0,0,-2.5
+    type: water
+    door: false
+- name: sunkencrypt_new_EndcapWater2
+  theme: SunkenCrypt
+  endCap: true
+  weight: 0.5
+  size: 4,4,10
+  connections:
+  - position: 2,0,-4
+    type: water
+    door: false
+- name: sunkencrypt_new_Room1
+  theme: SunkenCrypt
+  size: 12,12,10
+  connections:
+  - position: 6,0,-2.5
+    door: false
+  - position: -6,0,-2.5
+    door: false
+  - position: 0,6,-2.5
+    door: false
+  - position: 0,-6,-2.5
+    door: false
+- name: sunkencrypt_new_Room2
+  theme: SunkenCrypt
+  size: 12,12,10
+  connections:
+  - position: 6,0,-2.5
+  - position: 0,6,-2.5
+    door: false
+  - position: 0,-6,-2.5
+    door: false
+- name: sunkencrypt_new_Room3
+  theme: SunkenCrypt
+  size: 12,12,10
+  connections:
+  - position: 0,6,-2.5
+    door: false
+  - position: 0,-6,-2.5
+    door: false
+- name: sunkencrypt_new_Room4
+  theme: SunkenCrypt
+  size: 12,12,10
+  connections:
+  - position: 0,6,-4
+    type: water
+    door: false
+  - position: 0,-6,-2.5
+    door: false
+  - position: 6,0,-2.5
+    door: false
+- name: forestcrypt_entrance_large
+  theme: ForestCrypt
+  entrance: true
+  size: 12,20,12
+  connections:
+  - position: 0,10,-3.5
+  - position: 0,-10,0.5
+    entrance: true
+  - position: -6,4,-3.5
+  - position: 6,4,-3.5
+- name: forestcrypt_room1
+  theme: ForestCrypt
+  minPlaceOrder: 2
+  size: 8,8,6
+  connections:
+  - position: 4,2,-1.5
+  - position: -4,0,-1.5
+  - position: 0,4,-1.5
+- name: forestcrypt_Corridor1
+  theme: ForestCrypt
+  size: 4,8,5
+  connections:
+  - position: 0,4,-1
+  - position: 0,-4,-1
+  - position: -2,0,-1
+- name: forestcrypt_Corridor2
+  theme: ForestCrypt
+  minPlaceOrder: 2
+  size: 6,10,5
+  connections:
+  - position: 1,5,-1
+  - position: -1,-5,-1
+  - position: -3,3,-1
+- name: forestcrypt_Corridor3
+  theme: ForestCrypt
+  minPlaceOrder: 2
+  size: 8,10,5
+  connections:
+  - position: 0,5,-1
+  - position: 2,-5,-1
+  - position: -4,-1,-1
+- name: forestcrypt_Bend1
+  theme: ForestCrypt
+  minPlaceOrder: 2
+  size: 6,6,5
+  connections:
+  - position: 1,3,-1
+  - position: -3,-1,-1
+- name: forestcrypt_Bend2
+  theme: ForestCrypt
+  minPlaceOrder: 4
+  size: 8,6,5
+  connections:
+  - position: 2,3,-1
+  - position: -2,3,-1
+- name: forestcrypt_Stairs1
+  theme: ForestCrypt
+  minPlaceOrder: 4
+  size: 4,8,10
+  connections:
+  - position: 0,4,-3.5
+  - position: 0,-4,0.5
+- name: forestcrypt_EndCap
+  theme: ForestCrypt
+  endCap: true
+  endCapPriority: -1
+  size: 2,0,4
+  connections:
+  - position: 0,0,-1.5
+- name: forestcrypt_EndCap2
+  theme: ForestCrypt
+  endCap: true
+  endCapPriority: 1
+  size: 2,2,4
+  connections:
+  - position: 0,-1,-1.5
+- name: forestcrypt_EndCap3
+  theme: ForestCrypt
+  endCap: true
+  endCapPriority: 1
+  size: 2,2,4
+  connections:
+  - position: 0,-1,-1.5
+- name: forestcrypt_room_16
+  theme: ForestCrypt
+  minPlaceOrder: 2
+  size: 16,16,8
+  connections:
+  - position: -8,0,-1.5
+  - position: 0,8,-1.5
+  - position: 8,0,-1.5
+  - position: 0,-8,-1.5
+- name: forestcrypt_Chasm01
+  theme: ForestCrypt
+  minPlaceOrder: 4
+  size: 12,12,16
+  connections:
+  - position: 6,0,1.5
+  - position: -6,0,1.5
+  - position: 0,6,-6
+  - position: 0,-6,-6
+- name: forestcrypt_new_BurialChamber01
+  theme: ForestCrypt
+  minPlaceOrder: 3
+  size: 6,18,6
+  connections:
+  - position: 0,9,-1.5
+- name: forestcrypt_new_BurialChamber02
+  theme: ForestCrypt
+  minPlaceOrder: 3
+  size: 20,12,8
+  connections:
+  - position: -10,0,-1.5
+- name: forestcrypt_new_Burialchamber03
+  theme: ForestCrypt
+  minPlaceOrder: 3
+  size: 16,8,6
+  connections:
+  - position: 4,4,-1.5
+- name: forestcrypt_new_Burialchamber04
+  theme: ForestCrypt
+  minPlaceOrder: 3
+  size: 16,8,6
+  connections:
+  - position: 4,-4,-1.5
+- name: forestcrypt_new_Burialchamber05
+  theme: ForestCrypt
+  minPlaceOrder: 3
+  size: 16,16,8
+  connections:
+  - position: -8,0,-1.5
+  - position: -5,-8,-1.5
+- name: woodfarm_turnipfield
+  theme: MeadowsFarm
+  weight: 5
+  size: 12,9,8
+  connections: []
+- name: woodfarm_outhouse
+  theme: MeadowsFarm
+  weight: 0.5
+  faceCenter: true
+  perimeter: true
+  size: 10,10,8
+  connections: []
+- name: woodfarm_farmhouse1
+  theme: MeadowsFarm
+  weight: 8
+  size: 15,15,8
+  connections: []
+- name: woodfarm_farmhouse2
+  theme: MeadowsFarm
+  weight: 6
+  faceCenter: true
+  size: 15,15,8
+  connections: []
+- name: woodfarm_farmhouse3
+  theme: MeadowsFarm
+  weight: 4
+  faceCenter: true
+  size: 15,17,8
+  connections: []
+- name: woodfarm_tower
+  theme: MeadowsFarm
+  weight: 10
+  faceCenter: true
+  perimeter: true
+  size: 13,13,8
+  connections: []
+- name: woodfarm_signpost
+  theme: MeadowsFarm
+  weight: 0.1
+  size: 2,2,8
+  connections: []
+- name: woodfarm_fence2
+  theme: MeadowsFarm
+  weight: 6
+  faceCenter: true
+  perimeter: true
+  size: 9,4,8
+  connections: []
+- name: woodfarm_woodpile
+  theme: MeadowsFarm
+  weight: 0.5
+  size: 10,10,8
+  connections: []
+- name: woodfarm_fence1
+  theme: MeadowsFarm
+  weight: 6
+  faceCenter: true
+  perimeter: true
+  size: 12,5,8
+  connections: []
+- name: woodfarm_road1
+  theme: MeadowsFarm
+  weight: 6
+  faceCenter: true
+  perimeter: true
+  size: 6,17,8
+  connections: []
+- name: woodfarm_henpen
+  theme: MeadowsFarm
+  weight: 3
+  size: 15,15,8
+  connections: []
+- name: woodfarm_yard
+  theme: MeadowsFarm
+  weight: 3
+  size: 15,15,8
+  connections: []
+- name: meadowsvillage_greathall
+  theme: MeadowsVillage
+  faceCenter: true
+  size: 16,20,8
+  connections: []
+- name: meadowsvillage_greathallruin
+  theme: MeadowsVillage
+  faceCenter: true
+  size: 16,20,8
+  connections: []
+- name: meadowsvillage_longhouse
+  theme: MeadowsVillage
+  faceCenter: true
+  size: 16,16,8
+  connections: []
+- name: meadowsvillage_longhouseruin
+  theme: MeadowsVillage
+  faceCenter: true
+  size: 16,16,8
+  connections: []
+- name: meadowsvillage_house1
+  theme: MeadowsVillage
+  faceCenter: true
+  size: 13,13,8
+  connections: []
+- name: meadowsvillage_house2
+  theme: MeadowsVillage
+  weight: 40
+  faceCenter: true
+  perimeter: true
+  size: 13,13,8
+  connections: []
+- name: meadowsvillage_tower
+  theme: MeadowsVillage
+  weight: 5
+  faceCenter: true
+  perimeter: true
+  size: 9,9,8
+  connections: []
+- name: meadowsvillage_towerruin
+  theme: MeadowsVillage
+  weight: 5
+  faceCenter: true
+  perimeter: true
+  size: 15,15,8
+  connections: []
+- name: meadowsvillage_stakewall3
+  theme: MeadowsVillage
+  weight: 5
+  faceCenter: true
+  perimeter: true
+  size: 8,3,8
+  connections: []
+- name: meadowsvillage_road1
+  theme: MeadowsVillage
+  weight: 5
+  faceCenter: true
+  perimeter: true
+  size: 4,17,8
+  connections: []
+- name: cave_shrine_lootencap06
+  theme: Cave
+  endCap: true
+  endCapPriority: 2
+  weight: 2
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_lootencap05
+  theme: Cave
+  endCap: true
+  endCapPriority: 2
+  weight: 3
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_lootencap04
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_lootencap03
+  theme: Cave
+  endCap: true
+  endCapPriority: 2
+  weight: 3
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_lootencap02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  weight: 2
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_lootencap01
+  theme: Cave
+  endCap: true
+  endCapPriority: 2
+  weight: 3
+  size: 0,2,4
+  connections:
+  - position: 0,0,-1.25
+    type: loot
+    door: false
+- name: cave_shrine_endcap_noshrine
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-4
+    door: false
+- name: cave_shrine_endcap_noshrine02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-4
+    door: false
+- name: cave_shrine_endcap01
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_shrine_endcap02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_shrine_endcap03
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_shrine_endcap04
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_shrine_endcap05
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  weight: 0.5
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_shrine_endcap
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,6,6
+  connections:
+  - position: 0,0,-2.5
+    type: shrine
+    door: false
+- name: cave_new_deeproom_bottom_shrine
+  theme: Cave
+  minPlaceOrder: 2
+  weight: 10
+  size: 24,24,12
+  connections:
+  - position: 0,0,6
+    type: deeproom
+    door: false
+  - position: 6,-12,-2.5
+    type: shrine
+  - position: 6,12,-2.5
+    type: shrine
+  - position: -12,-6,-2.5
+    type: shrine
+  - position: 12,6,-2.5
+    type: shrine
+  - position: -6,12,-2.5
+- name: cave_shrine_hole01
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 200
+  size: 12,12,30
+  connections:
+  - position: 0,6,-12
+    type: shrine
+  - position: 0,6,5.75
+    type: shrine
+  - position: 6,0,5.75
+    type: shrine
+  - position: 6,0,-12
+    type: shrine
+- name: cave_shrine_room01
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,12,9
+  connections:
+  - position: 0,-6,-3
+    type: shrine
+  - position: 0,6,-3
+    type: shrine
+  - position: -6,0,-3
+    type: shrine
+  - position: 6,0,-3
+    type: shrine
+- name: cave_shrine_room02
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,12,9
+  connections:
+  - position: 0,-6,-3
+    type: shrine
+  - position: 0,6,-3
+    type: shrine
+  - position: -6,0,-3
+    type: shrine
+  - position: 6,0,-3
+    type: shrine
+- name: cave_shrine_shrine03
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 3
+  weight: 600
+  size: 12,20,9
+  connections:
+  - position: 6,-4,-1
+    type: shrine
+  - position: -6,-4,-1
+    type: shrine
+  - position: 0,-10,-1
+    type: shrine
+- name: cave_shrine_shrine02
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 3
+  weight: 600
+  size: 12,20,9
+  connections:
+  - position: 0,-10,-1
+    type: shrine
+- name: cave_shrine_shrine01
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 4
+  weight: 800
+  size: 12,12,9
+  connections:
+  - position: 0,-6,-1
+    type: shrine
+- name: cave_shrine_corridor07
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: 6,0,-2.5
+    type: shrine
+  - position: -6,0,-2.5
+    type: shrine
+- name: cave_shrine_corridor06
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 200
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: -6,0,-2.5
+    type: shrine
+  - position: 6,0,-2.5
+    type: shrine
+- name: cave_shrine_corridor05
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: 6,0,-2.5
+    type: shrine
+  - position: -2,0,-2.5
+    type: loot
+    door: false
+  - position: -2,3,-2.5
+    type: loot
+    door: false
+  - position: -2,-3,-2.5
+    type: loot
+    door: false
+- name: cave_shrine_corridor04
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 200
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: -6,0,-2.5
+    type: shrine
+  - position: 6,0,-2.5
+    type: shrine
+- name: cave_shrine_corridor03
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 200
+  size: 12,12,6
+  connections:
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: -6,0,-2.5
+    type: shrine
+- name: cave_shrine_corridor02
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: 2,-3,-2.5
+    type: loot
+    door: false
+  - position: 2,0,-2.5
+    type: loot
+    door: false
+  - position: 2,3,-2.5
+    type: loot
+    door: false
+  - position: -2,0,-2.5
+    type: loot
+    door: false
+  - position: -2,-3,-2.5
+    type: loot
+    door: false
+  - position: -2,3,-2.5
+    type: loot
+    door: false
+- name: cave_shrine_corridor01
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 200
+  size: 12,12,6
+  connections:
+  - position: 0,6,-2.5
+    type: shrine
+  - position: 0,-6,-2.5
+    type: shrine
+  - position: -6,0,-2.5
+    type: shrine
+  - position: 6,0,-2.5
+    type: shrine
+- name: cave_shrine_start02_ice
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,21,12
+  connections:
+  - position: 0,10.5,-1.75
+    type: shrine
+  - position: -6,4.5,-1.75
+    type: shrine
+  - position: 6,4.5,-1.75
+    type: shrine
+  - position: 0,-10.5,-4
+    type: ice
+- name: cave_shrine_start02_ice_corridor
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,24,12
+  connections:
+  - position: 0,-12,-4
+    type: ice
+  - position: 0,12,-1.75
+    type: shrine
+  - position: 6,6,-1.75
+    type: shrine
+  - position: -6,6,-1.75
+    type: shrine
+- name: cave_shrine_start02
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,21,12
+  connections:
+  - position: 0,10.5,-4
+    type: shrine
+  - position: -6,4.5,-4
+    type: shrine
+  - position: 6,4.5,-4
+    type: shrine
+  - position: 0,-10.5,-1.25
+- name: cave_shrine_start02_corridor
+  theme: Cave
+  endCapPriority: 1
+  minPlaceOrder: 2
+  weight: 150
+  size: 12,24,12
+  connections:
+  - position: 0,-12,-1.25
+  - position: 0,12,-4
+    type: shrine
+  - position: 6,6,-4
+    type: shrine
+  - position: -6,6,-4
+    type: shrine
+- name: cave_new_deeproom_endcap
+  theme: Cave
+  endCap: true
+  size: 24,0,12
+  connections:
+  - position: 0,0,0
+    type: deeproom
+    door: false
+- name: cave_new_deeproom_bottom_lake
+  theme: Cave
+  minPlaceOrder: 2
+  weight: 6
+  size: 24,24,12
+  connections:
+  - position: 0,0,6
+    type: deeproom
+    door: false
+- name: cave_new_deeproom_bottom_ice
+  theme: Cave
+  minPlaceOrder: 2
+  weight: 10
+  size: 24,24,12
+  connections:
+  - position: 0,0,6
+    type: deeproom
+    door: false
+  - position: 6,-12,-3
+    type: ice
+  - position: 6,12,-3
+    type: ice
+  - position: -12,-6,-3
+    type: ice
+  - position: 12,6,-3
+    type: ice
+  - position: -6,12,-3
+    type: ice
+- name: cave_new_deeproom_bottom
+  theme: Cave
+  minPlaceOrder: 2
+  weight: 10
+  size: 24,24,12
+  connections:
+  - position: 6,-12,-3
+  - position: 6,12,-3
+  - position: -12,-6,-3
+  - position: 0,0,6
+    type: deeproom
+    door: false
+  - position: 12,6,-3
+  - position: -6,12,-3
+- name: cave_new_deeproom_middle
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 24,24,24
+  connections:
+  - position: 0,0,-12
+    type: deeproom
+    door: false
+  - position: 0,0,12
+    type: deeproom
+    door: false
+- name: cave_new_deeproom_top
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 24,24,24
+  connections:
+  - position: -6,12,3
+  - position: 12,6,3
+  - position: -12,6,3
+  - position: 0,0,-12
+    type: deeproom
+    door: false
+- name: cave_new_deeproom_roof
+  theme: Cave
+  weight: 999
+  size: 24,24,11
+  connections:
+  - position: 0,0,-5.5
+    type: deeproom
+    door: false
+- name: cave_new_sloperoom05
+  theme: Cave
+  weight: 200
+  size: 24,60,30
+  connections:
+  - position: 12,0,5.75
+  - position: 6,30,-12
+  - position: 12,24,-12
+  - position: -12,24,-12
+  - position: 6,-30,-12
+  - position: 12,-24,-12
+  - position: -12,-24,-12
+- name: cave_new_sloperoom04
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 120
+  size: 24,36,30
+  connections:
+  - position: 12,12,5.75
+  - position: 6,-18,-12
+  - position: 12,-12,-12
+  - position: -12,-12,-12
+- name: cave_new_sloperoom03
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 120
+  size: 24,36,30
+  connections:
+  - position: 12,-12,5.75
+  - position: 6,18,-12
+  - position: 12,12,-12
+  - position: -12,12,-12
+- name: cave_new_sloperoom02
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 120
+  size: 24,36,30
+  connections:
+  - position: 12,12,5.75
+  - position: 6,-18,-12
+  - position: 12,-12,-12
+  - position: -6,18,-12
+  - position: -12,-12,-12
+  - position: 6,18,-12
+  - position: 12,12,-12
+  - position: -12,12,-12
+- name: cave_new_sloperoom01
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 120
+  size: 24,36,30
+  connections:
+  - position: 12,-12,5.75
+  - position: 6,-18,-12
+  - position: 12,-12,-12
+  - position: -6,-18,-12
+  - position: -12,-12,-12
+  - position: 6,18,-12
+  - position: 12,12,-12
+  - position: -12,12,-12
+- name: cave_new_sloperoom_w_hole
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 50
+  size: 24,36,30
+  connections:
+  - position: 6,-18,-12
+  - position: 12,-12,-12
+  - position: -6,-18,-12
+  - position: -12,-12,-12
+  - position: 6,18,-12
+  - position: 12,12,-12
+  - position: 6,18,5.75
+  - position: 12,12,5.75
+  - position: 12,-12,5.75
+- name: cave_new_slope_endcap01
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  minPlaceOrder: 1
+  weight: 0.5
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: slope
+    door: false
+- name: cave_new_iceendcap02_crystal
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  minPlaceOrder: 1
+  weight: 3
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  minPlaceOrder: 1
+  weight: 3
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap_painting04
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap_painting03
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap_painting02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap_painting01
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    type: ice
+    door: false
+- name: cave_new_iceendcap_moderstone
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  weight: 0.5
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_icecorridor07
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: -6,0,-3
+    type: ice
+  - position: 0,-6,-3
+    type: ice
+- name: cave_new_icecorridor06
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+    type: ice
+- name: cave_new_icecorridor05
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+    type: ice
+  - position: 0,-6,-3
+    type: ice
+- name: cave_new_icecorridor04
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+    type: ice
+- name: cave_new_icecorridor03
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+    type: ice
+- name: cave_new_icecorridor02
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+    type: ice
+- name: cave_new_icecorridor01
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,14
+  connections:
+  - position: 6,0,-2
+  - position: -6,0,-4.75
+    type: ice
+- name: cave_new_endcap02_crystal
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  minPlaceOrder: 1
+  weight: 3
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  minPlaceOrder: 1
+  weight: 3
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap_painting04
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap_painting03
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap_painting02
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap_painting01
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_endcap_moderstone
+  theme: Cave
+  endCap: true
+  endCapPriority: 1
+  weight: 0.5
+  size: 0,12,12
+  connections:
+  - position: 0,0,-3
+    door: false
+- name: cave_new_corridor09
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 24,12,12
+  connections:
+  - position: -12,0,-3
+  - position: -6,-6,-3
+  - position: 12,0,-3
+  - position: 6,6,-3
+- name: cave_new_corridor08
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: -6,0,-3
+  - position: 0,-6,-3
+- name: cave_new_corridor07
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+- name: cave_new_corridor06
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+  - position: 0,-6,-3
+- name: cave_new_corridor05
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+- name: cave_new_corridor03
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+- name: cave_new_corridor01
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+- name: cave_new_crossroads01_hole
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,30
+  connections:
+  - position: 0,-6,-12
+  - position: 0,6,-12
+  - position: -6,0,-12
+  - position: 0,-6,5.75
+  - position: 0,6,5.75
+  - position: 6,0,5.75
+- name: cave_new_crossroads01_hole_shrine
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,30
+  connections:
+  - position: 0,-6,5.75
+  - position: 0,6,5.75
+  - position: 6,0,5.75
+  - position: 0,6,-12
+    type: shrine
+  - position: -6,0,-12
+    type: shrine
+- name: cave_new_crossroads01_hole_long
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,24,30
+  connections:
+  - position: 0,-12,-12
+  - position: 0,12,-12
+  - position: -6,6,-12
+  - position: 0,-12,5.75
+  - position: 0,12,5.75
+  - position: 6,-6,5.75
+  - position: 6,-6,-12
+  - position: -6,6,5.75
+  - position: -6,-6,5.75
+- name: cave_new_crossroads01_hole_ice
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,30
+  connections:
+  - position: 0,-6,-12
+    type: ice
+  - position: 0,6,-12
+    type: ice
+  - position: -6,0,-12
+    type: ice
+  - position: 0,-6,5.75
+  - position: 0,6,5.75
+  - position: 6,0,5.75
+- name: cave_new_crossroads01
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+  - position: -6,0,-3
+  - position: 0,6,-3
+  - position: 0,-6,-3
+- name: cave_new_crossroads01_ice
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 5
+  size: 12,12,12
+  connections:
+  - position: 6,0,-3
+    type: ice
+  - position: -6,0,-3
+  - position: 0,6,-3
+    type: ice
+  - position: 0,-6,-3
+    type: ice
+- name: cave_new_crossroads03
+  theme: Cave
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: 0,-6,-3
+  - position: 1.3,6,-3
+  - position: -6,0,-3
+- name: cave_new_crossroads02
+  theme: Cave
+  weight: 10
+  size: 12,12,12
+  connections:
+  - position: 0,-6,-3
+  - position: 0,6,-3
+  - position: -6,0,-3
+- name: cave_new_entrance02
+  theme: Cave
+  entrance: true
+  size: 24,12,18
+  connections:
+  - position: -12,0,-3
+  - position: -6,6,-3
+  - position: -6,-6,-3
+  - position: 12,0,0
+    entrance: true
+    door: false
+- name: cave_divider
+  theme: Cave
+  divider: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-5
+- name: cave_divider02
+  theme: Cave
+  divider: true
+  endCapPriority: 1
+  size: 0,12,12
+  connections:
+  - position: 0,0,-5
+    door: false
+- name: cave_dome_roof
+  theme: Cave
+  endCap: true
+  minPlaceOrder: 2
+  weight: 80
+  size: 48,48,20
+  connections:
+  - position: 3.35,0,-10
+    type: dome
+    door: false
+- name: cave_new_crossroads01_hole_to_deeproom
+  theme: Cave
+  weight: 20
+  size: 24,24,38
+  connections:
+  - position: 6,-12,-7.75
+  - position: 6,-12,10
+  - position: 12,-6,10
+  - position: 6,12,10
+  - position: -12,-6,10
+  - position: -12,6,10
+  - position: -6,12,10
+  - position: -2.1,0.9,-19.25
+    type: deeproom
+    door: false
+- name: cave_dome_roof_from_deeproom_corner1
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 1000
+  size: 48,48,20
+  connections:
+  - position: 0,0,-10
+    type: dome
+    door: false
+  - position: -2.65,6,10
+    type: deeproom
+    door: false
+- name: cave_dome_roof_from_deeproom_corner2
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 1000
+  size: 48,48,20
+  connections:
+  - position: 0,0,-10
+    type: dome
+    door: false
+  - position: -2.65,6,10
+    type: deeproom
+    door: false
+- name: cave_dome_roof_from_deeproom_corner3
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 1000
+  size: 48,48,20
+  connections:
+  - position: 0,0,-10
+    type: dome
+    door: false
+  - position: -2.65,6,10
+    type: deeproom
+    door: false
+- name: cave_dome_roof_from_deeproom_corner4
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 1000
+  size: 48,48,20
+  connections:
+  - position: 0,0,-10
+    type: dome
+    door: false
+  - position: -2.65,6,10
+    type: deeproom
+    door: false
+- name: cave_dome_middle
+  theme: Cave
+  minPlaceOrder: 1
+  weight: 10
+  size: 48,48,24
+  connections:
+  - position: 0,0,12
+    type: dome
+    door: false
+  - position: 0,0,-12
+    type: dome
+    door: false
+- name: cave_dome_bottom_lake
+  theme: Cave
+  endCap: true
+  minPlaceOrder: 1
+  weight: 20
+  size: 48,48,12
+  connections:
+  - position: 0,0,6
+    type: dome
+    door: false
+- name: cave_dome_bottom_endcap
+  theme: Cave
+  endCap: true
+  minPlaceOrder: 1
+  size: 48,48,0
+  connections:
+  - position: 0,0,0
+    type: dome
+    door: false
+- name: dvergr_entrance01
+  theme: DvergerTown
+  entrance: true
+  size: 32,8,16
+  connections:
+  - position: -16,0,2
+    type: dvergr
+    entrance: true
+    door: false
+  - position: -4,-4,2
+    type: dvergr
+  - position: -4,4,2
+    type: dvergr
+  - position: 12,-4,-6
+    type: dvergr
+  - position: 4,-4,2
+    type: dvergr
+  - position: 16,0,2
+    type: dvergr
+  - position: 4,4,2
+    type: dvergr
+  - position: 12,-4,2
+    type: dvergr
+  - position: 12,4,2
+    type: dvergr
+  - position: 16,0,-6
+    type: dvergr
+  - position: 12,4,-6
+    type: dvergr
+- name: dvergr_entrance02
+  theme: DvergerTown
+  entrance: true
+  size: 24,8,16
+  connections:
+  - position: 12,0,2
+    type: dvergr
+    entrance: true
+  - position: 0,-4,-6
+    type: dvergr
+  - position: 0,-4,2
+    type: dvergr
+  - position: 0,4,2
+    type: dvergr
+  - position: 0,4,-6
+    type: dvergr
+- name: dvergr_stair01
+  theme: DvergerTown
+  size: 16,8,16
+  connections:
+  - position: 4,-4,-6
+    type: dvergr
+  - position: 8,0,2
+    type: dvergr
+  - position: 4,-4,2
+    type: dvergr
+  - position: 4,4,2
+    type: dvergr
+  - position: 8,0,-6
+    type: dvergr
+  - position: 4,4,-6
+    type: dvergr
+- name: dvergr_stair02
+  theme: DvergerTown
+  size: 24,8,16
+  connections:
+  - position: -12,0,2
+    type: dvergr
+  - position: -8,-4,2
+    type: dvergr
+  - position: -8,4,2
+    type: dvergr
+  - position: 8,-4,-6
+    type: dvergr
+  - position: 0,-4,2
+    type: dvergr
+  - position: 12,0,2
+    type: dvergr
+  - position: 0,4,2
+    type: dvergr
+  - position: 8,-4,2
+    type: dvergr
+  - position: 8,4,2
+    type: dvergr
+  - position: 12,0,-6
+    type: dvergr
+  - position: 8,4,-6
+    type: dvergr
+- name: dvergr_stair03
+  theme: DvergerTown
+  size: 16,8,16
+  connections:
+  - position: -8,0,2
+    type: dvergr
+  - position: 8,0,-6
+    type: dvergr
+- name: dvergr_room01
+  theme: DvergerTown
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: dvergr
+- name: dvergr_room02
+  theme: DvergerTown
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: dvergr
+  - position: -4,0,-2
+    type: dvergr
+- name: dvergr_room03
+  theme: DvergerTown
+  size: 16,8,8
+  connections:
+  - position: 4,-4,-2
+    type: dvergr
+  - position: 4,4,-2
+    type: dvergr
+  - position: -8,0,-2
+    type: dvergr
+- name: dvergr_room04
+  theme: DvergerTown
+  size: 16,8,8
+  connections:
+  - position: 4,-4,-2
+    type: dvergr
+  - position: -4,4,-2
+    type: dvergr
+- name: dvergr_corridor01
+  theme: DvergerTown
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: dvergr
+- name: dvergr_corridor02
+  theme: DvergerTown
+  size: 8,8,8
+  connections:
+  - position: -4,0,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: dvergr
+- name: dvergr_stone_corridor01
+  theme: DvergerTown
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: stone
+- name: dvergr_stone_corridor02
+  theme: DvergerTown
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: stone
+  - position: 0,4,-2
+    type: dvergr
+- name: dvergr_stone_corridor03
+  theme: DvergerTown
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: stone
+  - position: 4,0.25,-2
+    type: stone
+- name: dvergr_stone_room01
+  theme: DvergerTown
+  minPlaceOrder: 2
+  weight: 10
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: stone
+  - position: 0,4,-2
+    type: stone
+  - position: -4,0,-2
+    type: stone
+  - position: 4,0,-2
+    type: stone
+- name: dvergr_stone_room02
+  theme: DvergerTown
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: stone
+  - position: -4,0,-2
+    type: stone
+  - position: 4,0,-2
+    type: stone
+- name: dvergr_stone_room03
+  theme: DvergerTown
+  minPlaceOrder: 2
+  weight: 10
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+  - position: 0,4,-2
+    type: stone
+  - position: -4,0,-2
+    type: stone
+  - position: 4,0,-2
+    type: dvergr
+- name: dvergr_stone_room04
+  theme: DvergerTown
+  minPlaceOrder: 2
+  weight: 10
+  size: 16,8,8
+  connections:
+  - position: -4,-4,-2
+    type: stone
+  - position: 4,4,-2
+    type: stone
+  - position: -8,0,-2
+    type: stone
+  - position: 8,0,-2
+    type: stone
+  - position: 4,-4,-2
+    type: stone
+- name: dvergr_stone_turn01
+  theme: DvergerTown
+  size: 8,16,8
+  connections:
+  - position: -4,-4,-2
+    type: dvergr
+  - position: -4,4,-2
+    type: dvergr
+  - position: 4,-4,-2
+    type: dvergr
+  - position: 4,4,-2
+    type: dvergr
+- name: dvergr_stone_stair01
+  theme: DvergerTown
+  weight: 5
+  size: 24,8,16
+  connections:
+  - position: -12,0,2
+    type: dvergr
+  - position: 12,0,-6
+    type: stone
+  - position: 8,-4,-6
+    type: stone
+  - position: 8,4,-6
+    type: stone
+- name: dvergr_stone_open01
+  theme: DvergerTown
+  weight: 5
+  size: 24,16,16
+  connections:
+  - position: 0,8,2
+    type: stone
+  - position: 0,-8,2
+    type: dvergr
+- name: dvergr_room_fence01
+  theme: DvergerTown
+  size: 16,16,8
+  connections:
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: -4,8,-2
+    type: dvergr
+  - position: -4,-8,-2
+    type: dvergr
+- name: dvergr_room_open01
+  theme: DvergerTown
+  weight: 5
+  size: 24,16,16
+  connections:
+  - position: 0,8,2
+    type: dvergr
+  - position: 0,-8,2
+    type: dvergr
+- name: dvergr_room_open02
+  theme: DvergerTown
+  weight: 2
+  size: 16,16,16
+  connections:
+  - position: -8,-4,2
+    type: dvergr
+  - position: -8,4,2
+    type: dvergr
+  - position: -4,8,2
+    type: dvergr
+  - position: -4,-8,2
+    type: dvergr
+- name: dvergr_room_open03
+  theme: DvergerTown
+  weight: 5
+  size: 24,16,16
+  connections:
+  - position: 0,8,2
+    type: dvergr
+  - position: 0,-8,2
+    type: dvergr
+  - position: -12,0,2
+    type: dvergr
+- name: dvergr_room_open04
+  theme: DvergerTown
+  weight: 0.5
+  size: 16,16,8
+  connections:
+  - position: -4,-8,-2
+    type: dvergr
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: -4,8,-2
+    type: dvergr
+  - position: 4,8,-2
+    type: dvergr
+  - position: 8,4,-2
+    type: dvergr
+  - position: 8,-4,-2
+    type: dvergr
+  - position: 4,-8,-2
+    type: dvergr
+- name: dvergr_roombig_corner01
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -4,-8,-2
+    type: dvergr
+  - position: -8,-4,-2
+    type: dvergr
+  - position: 4,-8,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: 0,8,0
+    type: dvergropen
+  - position: 8,0,0
+    type: dvergropen
+- name: dvergr_roombig_side01
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: 8,0,0
+    type: dvergropen
+  - position: 0,8,0
+    type: dvergropen
+  - position: 0,-8,0
+    type: dvergropen
+- name: dvergr_roombig_side02
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: 8,0,0
+    type: dvergropen
+  - position: 0,8,0
+    type: dvergropen
+  - position: 0,-8,0
+    type: dvergropen
+- name: dvergr_roombig_open01
+  theme: DvergerTown
+  weight: 5
+  size: 16,16,12
+  connections:
+  - position: 8,0,0
+    type: dvergropen
+  - position: 0,8,0
+    type: dvergropen
+  - position: 0,-8,0
+    type: dvergropen
+  - position: -8,0,0
+    type: dvergropen
+- name: dvergr_roombig_open02
+  theme: DvergerTown
+  weight: 3
+  size: 16,16,20
+  connections:
+  - position: 8,0,-4
+    type: dvergropen
+  - position: 0,8,-4
+    type: dvergropen
+  - position: 0,-8,-4
+    type: dvergropen
+  - position: -8,0,-4
+    type: dvergropen
+  - position: -4,-8,4
+    type: dvergr
+  - position: -8,-4,4
+    type: dvergr
+  - position: -8,4,4
+    type: dvergr
+  - position: -4,8,4
+    type: dvergr
+  - position: 4,8,4
+    type: dvergr
+  - position: 8,4,4
+    type: dvergr
+  - position: 8,-4,4
+    type: dvergr
+  - position: 4,-8,4
+    type: dvergr
+- name: dvergr_roombig_corridor01
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: 0,8,0
+    type: dvergropen
+  - position: 0,-8,0
+    type: dvergropen
+  - position: 8,-4,-2
+    type: dvergr
+  - position: 8,4,-2
+    type: dvergr
+- name: dvergr_roombig_corridor02
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -8,-4,-2
+    type: dvergr
+  - position: -8,4,-2
+    type: dvergr
+  - position: 0,8,0
+    type: dvergropen
+  - position: 0,-8,0
+    type: dvergropen
+  - position: 8,-4,-2
+    type: dvergr
+  - position: 8,4,-2
+    type: dvergr
+- name: dvergr_roombig_windows01
+  theme: DvergerTown
+  size: 16,16,12
+  connections:
+  - position: -8,0,0
+    type: dvergropen
+- name: dvergr_roombig_toStone01
+  theme: DvergerTown
+  weight: 3
+  size: 8,16,12
+  connections:
+  - position: -4,0,0
+    type: dvergropen
+  - position: 4,4,-4
+    type: stone
+  - position: 4,-4,-4
+    type: stone
+- name: dvergr_roombig_toStone02
+  theme: DvergerTown
+  weight: 3
+  size: 8,16,12
+  connections:
+  - position: -4,0,0
+    type: dvergropen
+  - position: 4,4,-4
+    type: stone
+  - position: 4,-4,-4
+    type: stone
+- name: dvergr_roombig_endcap02
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 1
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: dvergropen
+- name: dvergr_room_TREASURE
+  theme: DvergerTown
+  endCapPriority: 2
+  minPlaceOrder: 2
+  weight: 4
+  size: 8,8,8
+  connections:
+  - position: 4,0,-2
+    type: dvergr
+    door: other
+- name: dvergr_room_TREASURE2
+  theme: DvergerTown
+  endCapPriority: 2
+  minPlaceOrder: 3
+  weight: 6
+  size: 8,8,8
+  connections:
+  - position: 4,0,-2
+    type: dvergr
+    door: other
+- name: dvergr_room_endcap01
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  weight: 5
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+    type: dvergr
+- name: dvergr_room_endcap02
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  weight: 5
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+    type: dvergr
+- name: dvergr_room_endcap03
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: dvergr
+- name: dvergr_stone_endcap01
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  weight: 5
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+    type: stone
+- name: dvergr_stone_endcap02
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: stone
+- name: dvergr_stone_endcap03
+  theme: DvergerTown
+  endCap: true
+  endCapPriority: 5
+  minPlaceOrder: 3
+  weight: 5
+  size: 8,8,8
+  connections:
+  - position: 0,-4,-2
+    type: stone
+- name: dvergr_divider01
+  theme: DvergerTown
+  divider: true
+  endCapPriority: 1
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+- name: dvergr_divider02
+  theme: DvergerTown
+  divider: true
+  endCapPriority: 1
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+- name: dvergr_divider03
+  theme: DvergerTown
+  divider: true
+  endCapPriority: 1
+  size: 8,0,8
+  connections:
+  - position: 0,0,-2
+- name: dvergr_bossroom_roof_endcap01
+  theme: DvergerBoss
+  endCap: true
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_roofToRoof
+    door: false
+- name: dvergr_bossroom_roof_endcap02
+  theme: DvergerBoss
+  endCap: true
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_roofToRoof
+    door: false
+- name: dvergr_bossroom_roof_endcap03
+  theme: DvergerBoss
+  endCap: true
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_roofToRoof
+    door: false
+- name: dvergr_bossroom_top_endcap01
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_topToTop
+    door: false
+- name: dvergr_bossroom_top_endcap02
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_topToTop
+    door: false
+- name: dvergr_bossroom_top_endcap03
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_topToTop_flat
+    door: false
+- name: dvergr_bossroom_middle_endcap01
+  theme: DvergerBoss
+  endCap: true
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_middleToMiddle
+    door: false
+- name: dvergr_bossroom_middle_endcap02
+  theme: DvergerBoss
+  endCap: true
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_middleToMiddle
+    door: false
+- name: dvergr_bossroom_middle_endcap03
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,12
+  connections:
+  - position: 0,0,0
+    type: boss_middleToMiddle_flat
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair01
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair02
+  theme: DvergerBoss
+  endCap: true
+  weight: 2
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom2
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair03
+  theme: DvergerBoss
+  endCap: true
+  weight: 2
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom2
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair04
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair05
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom2
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair06
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom2
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair07
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom
+    door: false
+- name: dvergr_new_bossroom_bottom_endcap_stair08
+  theme: DvergerBoss
+  endCap: true
+  weight: 3
+  size: 16,0,13
+  connections:
+  - position: 0,0,0
+    type: boss_bottomToBottom_flat
+    door: false
+- name: dvergr_new_bossroom_ENTRANCE02
+  theme: DvergerBoss
+  entrance: true
+  size: 48,48,100
+  connections:
+  - position: 0,-24,18
+    type: boss_roofToRoof
+    door: false
+  - position: 0,24,18
+    type: boss_roofToRoof
+    door: false
+  - position: -24,0,18
+    type: boss_roofToRoof
+    door: false
+  - position: 16,-24,18
+    type: boss_roofToRoof
+    door: false
+  - position: 16,24,18
+    type: boss_roofToRoof
+    door: false
+  - position: 24,0,18
+    type: boss_roofToRoof
+    door: false
+  - position: 0,24,6
+    type: boss_topToTop
+    door: false
+  - position: -24,0,6
+    type: boss_topToTop
+    door: false
+  - position: 16,24,6
+    type: boss_topToTop
+    door: false
+  - position: 24,0,6
+    type: boss_topToTop
+    door: false
+  - position: -24,0,-6
+    type: boss_middleToMiddle
+    door: false
+  - position: 0,-24,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: 24,0,-22
+    entrance: true
+    door: false
+  - position: 0,24,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: 16,-24,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: 16,24,-18.5
+    type: boss_bottomToBottom2
+    door: false
+  - position: -24,16,18
+    type: boss_roofToRoof
+    door: false
+  - position: -24,16,6
+    type: boss_topToTop_flat
+    door: false
+  - position: -24,-16,18
+    type: boss_roofToRoof
+    door: false
+  - position: -24,-16,-6
+    type: boss_middleToMiddle
+    door: false
+  - position: -16,-24,18
+    type: boss_roofToRoof
+    door: false
+  - position: -16,24,18
+    type: boss_roofToRoof
+    door: false
+  - position: -16,24,6
+    type: boss_topToTop_flat
+    door: false
+  - position: 24,-16,18
+    type: boss_roofToRoof
+    door: false
+  - position: 24,-16,6
+    type: boss_topToTop_flat
+    door: false
+  - position: 24,-16,-6
+    type: boss_middleToMiddle
+    door: false
+  - position: 24,-16,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: 24,16,18
+    type: boss_roofToRoof
+    door: false
+  - position: 24,16,6
+    type: boss_topToTop
+    door: false
+  - position: 24,16,-18.5
+    type: boss_bottomToBottom2
+    door: false
+  - position: -24,16,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: -24,0,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: -24,-16,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: -16,-24,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: -16,24,-18.5
+    type: boss_bottomToBottom_flat
+    door: false
+  - position: 16,24,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: 24,0,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: -24,16,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: -16,24,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: 24,16,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: 0,24,-6
+    type: boss_middleToMiddle_flat
+    door: false
+  - position: 0,-24,6
+    type: boss_topToTop_flat
+    door: false
+  - position: 16,-24,6
+    type: boss_topToTop_flat
+    door: false
+  - position: -24,-16,6
+    type: boss_topToTop_flat
+    door: false
+  - position: -16,-24,6
+    type: boss_topToTop_flat
+    door: false
