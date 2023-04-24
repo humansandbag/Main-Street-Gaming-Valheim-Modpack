@@ -3,6 +3,10 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.1
+- Added ShutUp By Smoothbrain
+- General dependency updates
+
 ### v1.2.0
 - Added GooderAutoShield By Main Street Gaming
 - Buffed helmets by 100%

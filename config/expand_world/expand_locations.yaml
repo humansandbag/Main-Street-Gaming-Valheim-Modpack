@@ -31,8 +31,8 @@
   quantity: 6
   maxDistance: 0.3
   minAltitude: 1
-  minDistanceFromSimilar: 1000
   prioritized: true
+  minDistanceFromSimilar: 1000
   randomRotation: true
   maxTerrainDelta: 3
   forestTresholdMin: 1
@@ -790,8 +790,7 @@
   biome: Meadows, cursedmeadows, BlackForest, cursedblackforest
   biomeArea: median
   quantity: 4
-  maxDistance: 0.100
-  maxDistance: 0.200
+  maxDistance: 0.2
   minAltitude: 1
   prioritized: true
   unique: true
@@ -817,7 +816,6 @@
   minAltitude: 150
   maxAltitude: 500
   prioritized: true
-  minDistanceFromSimilar: 0
   randomRotation: true
   maxTerrainDelta: 4
   exteriorRadius: 12
@@ -1495,7 +1493,6 @@
   exteriorRadius: 4
   clearArea: true
 - prefab: TrollCamp
-  enabled: true
   exteriorRadius: 10.9
   clearArea: true
 - prefab: CopperMine1
@@ -1781,8 +1778,80 @@
   minAltitude: 1
   maxAltitude: 1000
   prioritized: true
-  minDistanceFromSimilar: 0
   randomRotation: true
   maxTerrainDelta: 4
   exteriorRadius: 12
+  clearArea: true
+- prefab: AshHuldraQueen_Altar
+  biome: AshLands
+  quantity: 3
+  minDistance: 0.005
+  maxDistance: 1
+  minAltitude: 5
+  group: AshHuldraQueen_Altar
+  minDistanceFromSimilar: 2000
+  randomRotation: true
+  maxTerrainDelta: 2
+  inForest: true
+  forestTresholdMax: 2.19
+  exteriorRadius: 10
+  clearArea: true
+  noBuild: true
+- prefab: AshlandsCave_01
+  biome: AshLands
+  quantity: 7
+  minDistance: 0.05
+  maxDistance: 1
+  minAltitude: 20
+  group: AshlandsCave_01
+  minDistanceFromSimilar: 2000
+  randomRotation: true
+  maxTerrainDelta: 2
+  inForest: true
+  forestTresholdMax: 2.19
+  exteriorRadius: 15
+  clearArea: true
+- prefab: AshlandsCave_02
+  biome: AshLands
+  quantity: 7
+  minDistance: 0.05
+  maxDistance: 1
+  minAltitude: 20
+  group: AshlandsCave_02
+  minDistanceFromSimilar: 2000
+  randomRotation: true
+  maxTerrainDelta: 2
+  inForest: true
+  forestTresholdMax: 2.19
+  exteriorRadius: 15
+  clearArea: true
+- prefab: SpiderCave01
+  biome: BlackForest
+  quantity: 4
+  minDistance: 0.05
+  maxDistance: 1
+  minAltitude: 5
+  group: SpiderCave01
+  minDistanceFromSimilar: 3000
+  randomRotation: true
+  maxTerrainDelta: 2
+  inForest: true
+  forestTresholdMax: 2.19
+  exteriorRadius: 15
+  clearArea: true
+  noBuild: true
+- prefab: Balder_Altar
+  biome: Ocean
+  biomeArea: median
+  quantity: 3
+  minDistance: 0.005
+  maxDistance: 1
+  maxAltitude: -1
+  group: Balder_Altar
+  minDistanceFromSimilar: 300
+  randomRotation: true
+  maxTerrainDelta: 2
+  inForest: true
+  forestTresholdMax: 2.19
+  exteriorRadius: 100
   clearArea: true
