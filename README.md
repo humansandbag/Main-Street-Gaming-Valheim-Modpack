@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.2
+- Revamped the modpack for Hildir's Request
+
 ### v1.2.1
 - Added ShutUp By Smoothbrain
 - General dependency updates
