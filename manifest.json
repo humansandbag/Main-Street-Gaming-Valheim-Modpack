@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.2.2",
+    "version_number": "1.2.3",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -44,10 +44,11 @@
         "MainStreetGaming-GooderAutoShield-1.0.4",
         "Smoothbrain-ShutUp-1.0.2",
         "Smoothbrain-TargetPortal-1.1.8",
-        "Vapok-AdventureBackpacks-1.6.22",
+        "Vapok-AdventureBackpacks-1.6.26",
         "k942-MassFarming-1.8.0",
         "NexusRPLD-aedenthorn_BuildRestrictionTweaks-0.5.0",
         "CrazyPony-InstantMonsterLootDrop-0.5.0",
-        "Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock-1.4.1"    
+        "Goldenrevolver-Quick_Stack_Store_Sort_Trash_Restock-1.4.1",
+        "MainStreetGaming-GooderRecycling-1.0.0"   
     ]
 }
