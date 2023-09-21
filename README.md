@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.5
+- General dependency updates
+
+### v1.2.4
+- General dependency updates
+
 ### v1.2.3
 - Added GooderRecycling
 - AdventureBackpacks updated to: 1.6.26
