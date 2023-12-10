@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.7
+- General dependency updates
+
 ### v1.2.6
 - General dependency updates
 
