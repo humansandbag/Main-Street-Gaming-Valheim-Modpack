@@ -3,6 +3,13 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.8
+- General dependency updates
+- Removed AdventureBackpacks by Vapok
+- Removed ItemDrawers by makail
+- Added AdventureBackpacks by VentureValheim
+- Added ItemDrawers by KGvalheim
+
 ### v1.2.7
 - General dependency updates
 
