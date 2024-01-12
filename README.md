@@ -3,6 +3,21 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.2.9
+- Removed ServerSideMap by Mydayyy
+- Added Seasonality by RustyMods
+- Added Valheim_Legends by Torann_VL
+- Added MissingPieces by BentoG
+- Added Warfare by Therzie
+- Added Monstrum by Therzie
+- Added WarfareFireAndIce by Therzie
+- Added MonstrumDeepNorth by Therzie
+- Added MonstrumAshlands by Therzie
+- Added CSG_Warfare_Monstrum_Epic_Loot_Support by CSG
+- Added World_Advancement_Progression by VentureValheim
+- Added Boss_Altar_Rule_of_Three by Goldenrevolver
+- Added BossDespawn by Frogger
+
 ### v1.2.8
 - General dependency updates
 - Removed AdventureBackpacks by Vapok
