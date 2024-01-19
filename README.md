@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.1
+- Removed Network v1.0.2 by Smoothbrain
+
 ### v1.3.0
 - Added PlantEverything v1.16.2 by Advize
 - Added TorchesEternal v0.3.0 by Pineapple
