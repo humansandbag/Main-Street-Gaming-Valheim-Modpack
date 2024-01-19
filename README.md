@@ -3,6 +3,14 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.0
+- Added PlantEverything v1.16.2 by Advize
+- Added TorchesEternal v0.3.0 by Pineapple
+- Replaced AdventureBackpacks v1.7.6 by VentureValheim with AdventureBackpacks v1.7.6 by Vapok
+- Replaced Network v1.0.2 by Smoothbrain with BetterNetworking_Valheim v2.3.2 by CW_Jesse
+- Removed Seasonality v3.1.6 by RustyMods
+- General dependency updates
+
 ### v1.2.9
 - Removed ServerSideMap by Mydayyy
 - Added Seasonality by RustyMods
