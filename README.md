@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.3
+- Added BuildExpansion_Renewed v1.0.9 by Captain
+
 ### v1.3.2
 - Added NoRainDamage v1.2.1 by JoelOliMclean
 - General dependency updates
