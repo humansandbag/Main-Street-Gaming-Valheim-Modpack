@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.4
+- Added Item_Stand_All_Items v1.20.0 by JereKuusela
+- Added Need_For_Speed v0.2.0 by VentureValheim
+- Added Asocial_Cartography v0.1.0 by VentureValheim
+- General dependency updates
+
 ### v1.3.3
 - Added BuildExpansion_Renewed v1.0.9 by Captain
 
