@@ -3,6 +3,22 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.6
+- Removed Valheim_Legends by Torann
+- Removed Warfare by Therzie
+- Removed Monstrum by Therzie
+- Removed WarfareFireAndIce by Therzie
+- Removed MonstrumDeepNorth by Therzie
+- Removed MonstrumAshlands by Therzie
+- Removed CSG_Warfare_Monstrum_Epic_Loot_Support by CSG
+- Removed CraftFromContainers by DrZed
+- Removed InstantMonsterLootDrop by CrazyPony
+- Added StartupAccelerator by Smoothbrain
+- Added CraftFromContainers by Buttergeland
+- Added InstantMonsterDropFork by mchangrh
+- Added ResourceUnloadOptimizer by Azumatt
+- Added AAA_Crafting by Azumatt
+
 ### v1.3.5
 - General dependency updates
 
