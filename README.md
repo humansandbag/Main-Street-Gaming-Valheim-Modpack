@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.7
+- General dependency updates
+
 ### v1.3.6
 - Removed Valheim_Legends by Torann
 - Removed Warfare by Therzie
