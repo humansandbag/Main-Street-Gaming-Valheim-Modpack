@@ -3,6 +3,10 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.8
+- Added Valheim_Legends_Fork by Visteus
+- General dependency updates
+
 ### v1.3.7
 - General dependency updates
 
