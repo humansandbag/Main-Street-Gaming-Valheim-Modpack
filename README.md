@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.3.9
+- Removed UseEquipmentInWater by LVH-IT
+- Added GooderAquaticArsenal by MainStreetGaming
+- Config modifications for compatibility
+
 ### v1.3.8
 - Added Valheim_Legends_Fork by Visteus
 - General dependency updates
