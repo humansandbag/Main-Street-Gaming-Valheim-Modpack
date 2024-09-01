@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.0
+- General dependency updates
+
 ### v1.3.9
 - Removed UseEquipmentInWater by LVH-IT
 - Added GooderAquaticArsenal by MainStreetGaming
