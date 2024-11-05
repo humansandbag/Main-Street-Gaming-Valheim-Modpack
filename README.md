@@ -3,6 +3,15 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.1
+- The Bog Witch Update dependency compatibility updates
+- Removed StaminaRegenerationFromFood by Smoothbrain
+- Removed NoRainDamage by JoelOliMclean
+- Removed CraftFromContainers by Buttergeland
+- Added AzuCraftyBoxes v1.5.5 by Azumatt
+- Added ResinGuard v1.2.2 by Azumatt
+- Added RavenwoodPieces v1.1.5 by JamesJonesTV
+
 ### v1.4.0
 - General dependency updates
 
