@@ -3,6 +3,11 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.2
+- General dependency updates
+- Added ForsakenPowersPlus v1.3.8 by TastyChickenLegs
+- Set TargetPortal mode to Public by default
+
 ### v1.4.1
 - The Bog Witch Update dependency compatibility updates
 - Removed StaminaRegenerationFromFood by Smoothbrain
