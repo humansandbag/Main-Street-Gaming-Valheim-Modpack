@@ -3,6 +3,12 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.3
+- General dependency updates
+- Updated Fastlink server info
+- Added PortablePals v0.0.6 by Meldurson
+- Added ILoxYou v1.0.7 by Azumatt
+
 ### v1.4.2
 - General dependency updates
 - Added ForsakenPowersPlus v1.3.8 by TastyChickenLegs
