@@ -3,6 +3,10 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.4
+- General dependency updates
+- Added TradersExtended v1.3.7 by shudnal
+
 ### v1.4.3
 - General dependency updates
 - Updated Fastlink server info
