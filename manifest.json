@@ -1,6 +1,6 @@
 {
     "name": "MainStreetGaming_Valheim",
-    "version_number": "1.4.4",
+    "version_number": "1.4.5",
     "website_url": "https://github.com/humansandbag/Main-Street-Gaming-Valheim-Modpack",
     "description": "Official Modpack for the Main Street Gaming (MSG) private server.",
     "dependencies": [
@@ -62,7 +62,7 @@
         "Azumatt-AzuCraftyBoxes-1.5.6",
         "Azumatt-ResinGuard-1.2.3",
         "JamesJonesTV-RavenwoodPieces-1.1.5",
-        "MainStreetGaming-MassFarming-1.10.0",
+        "MainStreetGaming-MassFarming-1.11.0",
         "TastyChickenLegs-ForsakenPowersPlus-1.4.0",
         "Meldurson-PortablePals-0.0.6",
         "Azumatt-ILoxYou-1.0.7",
