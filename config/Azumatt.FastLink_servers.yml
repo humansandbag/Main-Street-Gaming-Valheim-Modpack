@@ -3,7 +3,7 @@
 # This file live updates the in-game listing. Feel free to change it while in the main menu.
 
 <color=yellow>MSG Modded Valheim Server</color>:
-  address: game.neocloud.us
+  address: game.neocloudhome.com
   port: 2456
   ispvp: false
   iscrossplay: false

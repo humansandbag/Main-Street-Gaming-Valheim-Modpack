@@ -3,6 +3,9 @@ Modpack needed to play on the Main Street Gaming (MSG) private server.
 
 ## Changelog:
 
+### v1.4.6
+- General dependency updates
+
 ### v1.4.5
 - MassFarming fix
 
